@@ -1,0 +1,9 @@
+ptermo = int(input('Digite o primeiro termo da PA: '))
+razao = int(input('Digite a razão: '))
+c = 1
+termo = ptermo
+print('PA: ', end='')
+while c <= 10:
+    print(termo, end=' ')
+    termo += razao
+    c += 1

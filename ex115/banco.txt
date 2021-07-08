@@ -1,0 +1,6 @@
+Alberto;46
+Maria Luiza;45
+Felipe;24
+Joao;23
+Antonio Alburquerque;101
+Hugo Veloz;18
