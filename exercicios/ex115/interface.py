@@ -1,4 +1,4 @@
-from geral import dados
+from exercicios.geral import dados
 
 
 def titulo(msg):

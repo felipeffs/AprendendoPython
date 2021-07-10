@@ -1,5 +1,5 @@
 import moeda
-from geral import tratamento
+from exercicios.geral import tratamento
 
 p = tratamento.leiaFloat('Digite o preço: R$', 'preço')
 print(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}')

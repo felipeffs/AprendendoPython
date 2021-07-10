@@ -1,5 +1,5 @@
 from interface import titulo
-from geral.dados import leiaInt
+from exercicios.geral.dados import leiaInt
 
 def arquivoExiste(nome):
     try:
