@@ -1,4 +1,9 @@
+"""
+Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.
+"""
+
 from datetime import date
+
 ano = int(input('Ano(0 para o ano atual): '))
 if ano == 0:
     ano = date.today().year
