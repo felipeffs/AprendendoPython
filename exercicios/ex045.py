@@ -1,6 +1,9 @@
+"""
+Crie um programa que faça o computador jogar Jokenpô com você.
+"""
+
 from random import choice
 from time import sleep
-# papel pedra tesoura
 
 print('-='*20)
 print('Duelo de PEDRA, PAPEL E TESOURA')
