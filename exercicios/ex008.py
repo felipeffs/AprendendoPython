@@ -2,7 +2,7 @@
 Escreva um programa que leia um valor em metros e o exiba
 convertido em centímetros e milímetros.
 """
-# → Extra: fazer Km, hm, dam, m, dm, cm, mm.
+# Extra: fazer Km, hm, dam, m, dm, cm, mm.
 
 valorM = float(input('Digite um valor em metros: '))
 valorCm = valorM * 100
