@@ -1,3 +1,12 @@
+"""
+Crie um programa que leia dois valores e mostre um menu como o abaixo:
+[1] somar
+[2] multiplicar
+[3] novos números
+[4] sair do programa
+Seu programa deverá realizar a operação solicitada em cada caso.
+"""
+
 op = 1
 while op != 4:
     op = int(input('>Menu Principal:'
