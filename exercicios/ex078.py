@@ -1,3 +1,9 @@
+"""
+Faça um programa que leia 5 valores numéricos e guarde-os em uma lista.
+No final, mostre qual foi o maior e o menor valor digitado e as suas
+respectivas posições na lista.
+"""
+
 valores = list()
 menor = maior = 0
 print('='*50)
@@ -17,7 +23,7 @@ print(f'{"INFORMAÇÕES":^50}')
 print('='*50)
 menorPos = []
 maiorPos = []
-# Se declarar lista1 = lista2 = [] cria-se uma ligação em vez de duas listas iguais
+# Se declarar lista1 = lista2 = [] criasse uma ligação em vez de duas listas iguais
 for pos, v in enumerate(valores):
     if v == menor:
         menorPos.append(pos)

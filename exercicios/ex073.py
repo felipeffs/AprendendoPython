@@ -1,3 +1,12 @@
+"""
+Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do
+Campeonanto Brasileiro de Futebol, na ordem de colocação. Depois mostre:
+A) Os 5 primeiros.
+B) Os últimos 4 colocados.
+C) Times em ordem alfabética.
+D) Em que posição está o time da Chapecoense.
+"""
+
 # Colocação do dia 01/06/2021
 colocados = 'Bragantino', 'Bahia', 'Ceará SC', 'Fortaleza', 'Athletico-PR', 'Flamengo', 'Atlético-GO', \
             'Sport Recife', 'Juventude', 'Cuiabá', 'Internacional', 'São Paulo', 'Fluminense', \
