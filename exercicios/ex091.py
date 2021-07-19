@@ -1,5 +1,12 @@
+"""
+Crie um programa onde 4 jogadores joguem um dado e tenham resultados aleatórios.
+Guarde esses resultados em um dicionário. No final, coloque esse dicionário em
+ordem, sabendo que o vencedor tirou o maior número no dado.
+"""
+
 from random import randint
 from time import sleep
+
 jogadores = {}
 print('—'*50)
 print(f'{"Valores Sorteados":^50}')
@@ -17,9 +24,3 @@ for j in sorted(jogadores, key=jogadores.get, reverse=True):
     sleep(1)
     print(f'{f"{pos}º lugar: {j} com {jogadores[j]}":^50}')
 print('—'*50)
-
-# Ordenar dicionário:
-# ranking = dict()
-# for j in sorted(jogadores, key=jogadores.get, reverse=True):
-#     ranking[j] = jogadores[j]
-# print(ranking)

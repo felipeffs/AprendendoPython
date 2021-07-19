@@ -1,5 +1,13 @@
+"""
+Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros
+com valores inteiros. Seu programa tem que analisar todos os valores e dizer qual
+deles é o maior.
+"""
+
+
 def maior(*valores):
     from time import sleep
+
     print('='*50)
     print('Analisando...')
     print(f'Os valores informados foram: ')
