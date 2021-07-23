@@ -1,3 +1,11 @@
+"""
+Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar
+o comando e o manual vai aparecer. Quando o usuário digitar a palavra 'FIM', o
+programa se encerrará.
+OBS: use cores.
+"""
+
+
 def titulo(texto, letra=int(), fundo=int(), estilo=int()):
     tam = len(texto) + 4
     cor = f'\033[{estilo}:{letra}:{fundo}m'
