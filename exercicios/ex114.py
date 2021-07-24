@@ -1,5 +1,10 @@
+"""
+Crie um código em Python que teste se o site Pudim está acessível pelo computador
+usado.
+"""
+
 import urllib.request
-# w = webbrowser.open('www.pudim.com.br')
+
 try:
     site = urllib.request.urlopen('http://www.pudim.com.br')
 except:

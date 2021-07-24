@@ -1,6 +1,7 @@
 from interface import titulo
 from exercicios.geral.dados import leiaInt
 
+
 def arquivoExiste(nome):
     try:
         a = open(nome, 'rt')
