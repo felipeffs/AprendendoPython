@@ -11,7 +11,7 @@ from time import sleep
 p = random.randint(0, 5)
 
 print('\nVAMOS BRINCAR! ( •̀ ω •́ )✧'
-      '\nPensei num número de 0 a 5, agora tente advinhar se for capaz.')
+      '\nPensei num número de 0 a 5, agora tente adivinhar se for capaz.')
 a = int(input('Bora! \n'))
 
 if a == p:

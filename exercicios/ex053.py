@@ -8,7 +8,7 @@ Ex: Após a sopa
     Anotaram a data da maratona
 """
 
-f = str(input('Digite uma frase ')).lower().strip()
+f = str(input('Digite uma frase: ')).lower().strip()
 fs = f.split(' ')
 junto = ''
 inverso = ''

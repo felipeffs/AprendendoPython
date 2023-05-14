@@ -5,4 +5,4 @@ Crie um programa que leia o nome de uma pessoa e diga se ela tem
 
 nome = str(input('Nome: ')).strip()
 
-print('Possui Silva no nome? {}'.format('SILVA' in nome.upper().split()))
+print('Possui Silva no nome? {}'.format('SILVA' in nome.upper()))

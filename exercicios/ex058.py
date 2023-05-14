@@ -6,7 +6,7 @@ mostrando no final quantos palpites foram necessários para vencer.
 
 from random import randint
 
-print('Tente advinhar que número eu pensar em menos tentativas conseguir\n'
+print('Tente adivinhar que número eu pensar em menos tentativas conseguir\n'
       'Pensei, lesgooo\n')
 tentativas = 0
 computador = randint(0, 10)

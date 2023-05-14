@@ -7,11 +7,11 @@ Faça um programa que leia uma frase pelo teclado e mostre:
 
 # frases: Não importa o que os seus olhos veem, o que importa é o que o seu coração sente.
 
-f = str(input('Digite uma frase:\n')).strip()
+f = str(input('Digite uma frase:\n')).lower().strip()
 
-fqa = f.lower().count('a')
-fqap = f.lower().find('a') + 1
-fqau = f.lower().rfind('a') + 1
+fQtdA = f.count('a')
+fPrimeiroA = f.find('a') + 1
+fUltimoA = f.rfind('a') + 1
 
 print("\nA letra 'a' aparece {} vezes na frase e a primeira aparição é na {}ª posição "
-      "e a ultima na {}ª posição".format(fqa, fqap, fqau))
+      "e a ultima na {}ª posição".format(fQtdA, fPrimeiroA, fUltimoA))

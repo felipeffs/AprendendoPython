@@ -10,7 +10,7 @@ print('Duelo de PEDRA, PAPEL E TESOURA')
 print('-='*20)
 e = str(input('Vai jogar pedra, papel ou tesoura?\n')).strip().lower()
 p = ['pedra', 'papel', 'tesoura']
-adversário = choice(p)
+adversario = choice(p)
 
 print('--'*20)
 print('PEDRA')
@@ -20,31 +20,31 @@ sleep(1)
 print('E TESOOOOURA!')
 print('--'*20)
 
-if e == 'papel' and adversário == 'tesoura':
+if e == 'papel' and adversario == 'tesoura':
     print('Você jogou papel....\n'
           'MAS eu tesoura\n'
           'MWHAHAHAHAH')
-elif e == 'papel' and adversário == 'pedra':
+elif e == 'papel' and adversario == 'pedra':
     print('V-você jogou papel....\n'
           'na minha pedra\n'
           'INJUSTO!!!!')
-elif e == 'pedra' and adversário == 'papel':
+elif e == 'pedra' and adversario == 'papel':
     print('Peguei a pedra que tacaste\n'
           'COM MEU LINDO PAPEL\n'
           '>:)')
-elif e == 'pedra' and adversário == 'tesoura':
+elif e == 'pedra' and adversario == 'tesoura':
     print('A sua pedra foi muito dura\n'
           'com a minha tesourinha escolar\n'
           'vou arranjar uma tesoura mais forte, vai vendo >:(')
-elif e == 'tesoura' and adversário == 'papel':
+elif e == 'tesoura' and adversario == 'papel':
     print('A sua tesoura passou cortando o meu papel\n'
           'Em uma velocidade inacreditável\n'
           'Tá roubando!!!')
-elif e == 'tesoura' and adversário == 'pedra':
+elif e == 'tesoura' and adversario == 'pedra':
     print('A sua tesoura foi esmagada pela minha FUCKING PEDRA!!!!\n'
           'hihihihi\n'
           'Não fique triste, melhore!')
-elif e == adversário:
+elif e == adversario:
     print('Nosso poder é equivalente, empatamos')
 else:
     print('{}????\n'

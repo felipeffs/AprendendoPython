@@ -7,25 +7,28 @@ considerando o seu preço normal e condição de pagamento:
 — 3x ou mais no cartão: 20% de juros
 """
 
-print('{:▰^42}'.format('LOJA TEVENIDO'))
+print('{:▰^57}'.format('LOJA TEVENIDO'))
 
-p = float(input('\nValor do produto: '))
+p = n = float(input('\nValor do produto: '))
 f = int(input('Forma de pagamento:\n'
               '0: Á vista ou cheque\n'
               '1: No cartão\n'))
 
 if f == 0:
-    n = p * 0.9
+    n *= 0.9
     print('O produto de R${:.2f} fica por R${:.2f} á vista'.format(p, n))
 elif f == 1:
     c = int(input('Em quantas vezes? '))
     if c == 1:
-        n = p * 0.95
-        print('O produto de R${:.2f} fica por R${:.2f} á vista no cartão'.format(p, n))
+        n *= 0.95
+        print('O produto de R${:.2f} fica por R${:.2f} á vista no cartão'.format(p, n), end='')
     elif c <= 2:
-        print('O preço do produto continua por R${:.2f} em {}x no cartão'.format(p, c))
+        print('O preço do produto continua por R${:.2f} em {}x no cartão'.format(p, c), end='')
     else:
-        n = p * 1.2
-        print('O preço de R${:.2f} fica por R${:.2f} em {}x no cartão'.format(p, n, c))
+        n *= 1.2
+        print('O preço de R${:.2f} fica por R${:.2f} em {}x no cartão'.format(p, n, c), end='')
+    print(', com parcelas de R${:.2f}'.format(n / c))
+else:
+    print('Opção Inválida!')
 
-print('▰'*37)
+print('\n'+'▰' * 52)

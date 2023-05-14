@@ -3,7 +3,7 @@ Faça um programa que leia um número inteiro qualquer e mostre na
 tela a sua tabuada.
 """
 
-t = int(input('Digite um número inteiro '))
+t = int(input('Digite um número inteiro: '))
 
 print('\n=======Tabuada do {}======='.format(t))
 print('\t{} x {:2} = {}\n'.format(t, 1, t*1))
